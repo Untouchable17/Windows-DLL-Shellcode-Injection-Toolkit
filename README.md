@@ -14,7 +14,6 @@ Tools for implementing Windows processes, including implementing DLL libraries a
 2. **Ethical Responsibility**: Never engage in malicious activities or data destruction.  
 3. **Full Liability**: Assume all legal/financial consequences for misuse.  
 
----
 
 ## 🛠️ Core Features
 
