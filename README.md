@@ -10,9 +10,9 @@ Tools for implementing Windows processes, including implementing DLL libraries a
 <strong>This project is for educational and authorized security research only.</strong> Unauthorized use, including but not limited to attacking systems without explicit owner consent, is strictly prohibited and violates international cybercrime laws 
 
 **By using this toolkit, you agree to:**
-1. **Legal Compliance**: Use only on systems you own or have written authorization to test.  
-2. **Ethical Responsibility**: Never engage in malicious activities or data destruction.  
-3. **Full Liability**: Assume all legal/financial consequences for misuse.  
+1. **Legal Compliance**: Use only on systems you own or have written authorization to test
+2. **Ethical Responsibility**: Never engage in malicious activities or data destruction
+3. **Full Liability**: Assume all legal/financial consequences for misuse
 
 
 ## 🛠️ Core Features
@@ -48,7 +48,6 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason, LPVOID lpReserved) {
 ```bash
 .\dll-injector.exe (Get-Process notepad).Id "C:\test-payload.dll"
 ```
----
 
 ### Shellcode Injection
 **Payload Generation:**
@@ -72,7 +71,6 @@ shellcode-injector.exe 1472
     </a>
 </h1>
 
----
 
 ## 🛠️ Compilation Guide
 
@@ -98,9 +96,6 @@ i686-w64-mingw32-g++ shellcode-injector.cpp -o shellcode-injector32.exe -static 
 # Flags: -s (strip symbols), -Os (optimize for size) - optionally
 ```
 
----
-
-
 ## 🛡️ Defensive Considerations
 | **Technique**             | **Detection Risk**         | **Mitigation Tips**                                                |
 |---------------------------|----------------------------|--------------------------------------------------------------------|
@@ -109,7 +104,6 @@ i686-w64-mingw32-g++ shellcode-injector.cpp -o shellcode-injector32.exe -static 
 | **RWX Memory**            | Critical                   | Use NTAPI calls `NtAllocateVirtualMemory` + memory section mapping |
 | **Remote Threads**        | High                       | Leverage process hollowing or APC queue injection                  |
 
----
 
 ### ⚠️ Important Notes
 - **EDR Bypass:** This toolkit does not implement advanced evasion techniques. Always:
@@ -125,8 +119,6 @@ i686-w64-mingw32-g++ shellcode-injector.cpp -o shellcode-injector32.exe -static 
 printf("[+] Allocated memory at 0x%p\n", remoteBuffer);
 #endif
 ```
-
----
 
 <h2 align="center">Contact Developer</h2>
 
