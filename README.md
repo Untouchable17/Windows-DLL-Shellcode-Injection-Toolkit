@@ -29,8 +29,6 @@ Tools for implementing Windows processes, including implementing DLL libraries a
 | **Cleanup**              | Full handle/memory release              | Post-execution sanitization                   |
 | **Ideal For**            | Game modding, debug hooks               | Red team operations, EDR research             |
 
----
-
 ## 🎯 Usage Scenarios
 
 ### DLL Injection
