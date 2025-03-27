@@ -7,7 +7,7 @@ Tools for implementing Windows processes, including implementing DLL libraries a
 ![Platform](https://img.shields.io/badge/OS-Windows-lightgrey)
 
 <h2 align="center">⚠️ Legal & Ethical Warning</h2> 
-**This project is for educational and authorized security research only.** Unauthorized use, including but not limited to attacking systems without explicit owner consent, is strictly prohibited and violates international cybercrime laws such as:  
+<strong>This project is for educational and authorized security research only.</strong> Unauthorized use, including but not limited to attacking systems without explicit owner consent, is strictly prohibited and violates international cybercrime laws such as:  
 
 **By using this toolkit, you agree to:**
 1. **Legal Compliance**: Use only on systems you own or have written authorization to test.  
